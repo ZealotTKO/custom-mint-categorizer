@@ -1,0 +1,69 @@
+# Map personal categories to mint categories or descriptions
+#
+# This mapping is done in 2 passes:
+# 1. Mappings from personal categories to mint descriptions are added. These mint descriptions are removed from future mappings.
+# 2. Mappings from personal categories to mint categories AND any mint descriptions that fall under the mint category are added.
+
+# EXAMPLE
+grocery:
+  - "groceries"
+restaurant:
+  # Also adds the unmapped descriptions "alcohol & bars", "coffee shops", "fast food", "restaurant"
+  - "food & dining"
+utilities:
+  # Also adds "home phone", "internet", "mobile phone", "television", "utilities"
+  - "bills & utilities"
+isabelhobbies:
+  - "isabelhobbies"
+isabelleisure:
+  - "isabelleisure"
+tannerhobbies:
+  - "tannerhobbies"
+tannerleisure:
+  - "tannerleisure"
+isabeltannerleisure:
+  # Also adds unmapped descriptions "air travel", "hotel", "rental car & taxi", "vacation"
+  - "travel"
+  - "isabeltannerleisure"
+isabelwriting:
+  - isabelwriting
+autoandtransport:
+  - "auto & transport"
+home:
+  - "airbnb maintainence"
+  - "airbnb onetime"
+  - "home"
+tuition:
+  # also adds "books & supplies", "student loan", "tuition"
+  - "education"
+cats:
+  # also adds "pet food & supplies", "pet grooming", "veterinary"
+  - "pets"
+giftsandcharity:
+  # also adds "charity", "gift"
+  - "gifts & donations"
+oopsy:
+  - "bank fee"
+  - "late fee"
+other:
+  # also adds "cash & atm", "check"
+  - "uncategorized"
+  - "cashwithdraw"
+  # also adds "atm fee", "finance charge", "service fee", "trade commissions"
+  - "fees & charges"
+  - "life insurance"
+  - "transfer for cash spending"
+health:
+  - "health & fitness"
+taxes:
+  - "taxes"
+ignore:
+  - "credit card payment"
+  - "hide from budget"
+  - "returned purchases"
+  - "transfer"
+  - "vanguard"
+income:
+  - "income"
+# SPECIAL MEANING: personal category to assign all unassigned categories #
+default: "other"
