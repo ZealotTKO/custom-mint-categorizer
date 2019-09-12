@@ -5,10 +5,10 @@ Maps Inuit Mint's Required Categories to Custom Categories
 
 Get Exported CSV from Mint:
 
-* -> Log into inuit Mint
-* -> Transactions Tab
-* -> scroll to bottom right
-* -> export all transactions to csv
+* Log into inuit Mint
+* Transactions Tab
+* Scroll to bottom right
+* Export all transactions to csv
 
 Create A Custom Mapping:
 
