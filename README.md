@@ -1,5 +1,19 @@
 # custom-mint-categorizer
-Maps Mint Intuit's Required Categories to Custom Categories
+Maps Inuit Mint's Required Categories to Custom Categories
+
+## Using the Script
+
+Get Exported CSV from Mint:
+
+* -> Log into inuit Mint
+* -> Transactions Tab
+* -> scroll to bottom right
+* -> export all transactions to csv
+
+Create A Custom Mapping:
+
+* Modify example/config.yaml with your custom categories as keys.
+* For each custom category key, specify the list of mint categories/descriptions values that should be mapped to it.
 
 ## Usage
 
